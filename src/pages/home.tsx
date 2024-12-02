@@ -1,7 +1,12 @@
-import MainSection from "../components/sections/main";
+import { MainSection, AboutSection } from "../components/sections";
 
 function Home() {
-  return <MainSection />;
+  return (
+    <>
+      <MainSection />
+      <AboutSection />
+    </>
+  );
 }
 
 export default Home;
