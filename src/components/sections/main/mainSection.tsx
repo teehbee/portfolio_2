@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function MainSection() {
   return (
-    <div className="d-flex w-100 text-center border flex-column flex-lg-row  z-index-negative height100vh navMargin">
+    <div className="d-flex w-100 text-center flex-column flex-lg-row  z-index-negative height100vh navMargin">
       <div className="col-12 col-lg-3 yellow-colour pt-100px position-relative yellow-frontpage d-flex flex-column justify-content-end align-items-start">
         <img className="portrait-img" src={placeHolderImage} alt="" />
         <div className="ps-3 pb-3 d-none d-lg-block">
