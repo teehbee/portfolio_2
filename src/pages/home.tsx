@@ -16,7 +16,7 @@ function Home() {
           </Link>
         </div>
       </div>
-      <div className="col-12 col-lg-9 pt-100px d-flex flex-column justify-content-center mt-5 mt-lg-0 align-items-center text-start">
+      <div className="col-12 col-lg-9 pt-100px d-flex flex-column justify-content-center mt-5 mt-lg-0 align-items-center text-center text-lg-start px-2 px-md-0">
         <div className="frontpage-text-container">
           <h1 className="fs-1rem-to-1-25rem yellow-font">Front end developer</h1>
           <h2 className="fs-1-25rem-to-3-25rem">Tor-Håkon Bergseng</h2>
