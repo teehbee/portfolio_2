@@ -23,10 +23,10 @@ function MainSection() {
           <p className="fs-1rem-to-1-25rem yellow-font">Some weird slogan going here about me as a person</p>
           <div className="d-flex flex-column flex-lg-row">
             <Link className="cursor-pointer mb-3 me-2" to="#projects">
-              <button className="btn yellow-and-dark-btn fs-1rem-to-1-25rem cursor-pointer text-light">Download CV</button>
+              <button className="yellow-and-dark-btn fs-1rem-to-1-25rem cursor-pointer text-light">Download CV</button>
             </Link>
             <Link className="cursor-pointer" to="#projects">
-              <button className="btn yellow-and-dark-btn fs-1rem-to-1-25rem cursor-pointer text-light">Projects</button>
+              <button className="yellow-and-dark-btn fs-1rem-to-1-25rem cursor-pointer text-light">Projects</button>
             </Link>
           </div>
         </div>
