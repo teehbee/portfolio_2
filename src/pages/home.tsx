@@ -1,10 +1,11 @@
-import { MainSection, AboutSection } from "../components/sections";
+import { MainSection, AboutSection, ProjectsSection } from "../components/sections";
 
 function Home() {
   return (
     <>
       <MainSection />
       <AboutSection />
+      <ProjectsSection />
     </>
   );
 }
