@@ -1,5 +1,9 @@
-function Footer() {
-  return <h1>Footer</h1>;
-}
+const Footer = () => {
+  return (
+    <footer className="container">
+      <p className="text-center">&copy; Noroff Online School</p>
+    </footer>
+  );
+};
 
 export default Footer;
