@@ -162,13 +162,36 @@ body {
     height: 100vh;
   }
   .portrait-img {
-    height: 450px;
-    width: 450px;
+    height: 300px;
+    width: 300px;
     object-fit: cover;
     border-radius: 500px;
     top: 50%;
     left: 100%;
     transform: translate(-50%, -50%);
     border: 5px solid $main-dark-gray;
+  }
+  .frontpage-text-container {
+    padding-left: 150px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portrait-img {
+    height: 350px;
+    width: 350px;
+  }
+  .frontpage-text-container {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .portrait-img {
+    height: 450px;
+    width: 450px;
+  }
+  .frontpage-text-container {
+    padding-left: 0px;
   }
 }
