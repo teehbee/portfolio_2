@@ -3,6 +3,7 @@ import { useState } from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import { menuBars } from "../../assets/icons";
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -13,15 +14,12 @@ const Header = () => {
     <>
       <Navbar expand="lg" className="bg-body-primary position-relative main-header">
         <div className="container-fluid">
-          <Link className="secondary-font fs-1-25rem-to-3-25rem dark-gray-font" to={"/"}>
+          <Link className="header-logo secondary-font fs-1-25rem-to-3-25rem dark-gray-font" to={"/"}>
             thbergseng
           </Link>
-          <button className="btn btn-primary d-lg-none" onClick={handleShow}></button>
+          <img src={menuBars} className="d-lg-none nav-bars-button" aria-label="menu-button" onClick={handleShow} />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Link to={"#about"} className="btn main-font fs-1-5rem">
-                Login
-              </Link>
               <Link to={"#resume"} className="btn main-font fs-1-5rem">
                 About me
               </Link>

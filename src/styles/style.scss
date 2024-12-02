@@ -101,6 +101,11 @@ body {
   z-index: -1;
 }
 
+.header-logo,
+.nav-bars-button {
+  z-index: 1;
+}
+
 // Frontpage
 
 .portrait-img {
