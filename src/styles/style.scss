@@ -6,6 +6,45 @@
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
+// Color variables
+
+$main-dark-gray: #212121;
+$main-yellow: #e9ad35;
+$main-gray-font: #cfcfcf;
+
+// Colour classes
+
+.yellow-colour {
+  background: #e9ad35;
+}
+
+.gray-color {
+  background: $main-dark-gray;
+}
+
+.dark-gray-font {
+  color: $main-dark-gray;
+}
+
+// Body styles
+
+#root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+* {
+  font-family: "Roboto Mono", monospace;
+  color: $main-gray-font;
+}
+
+// Font size variables
+
+$custom-fs-1-25rem: 1.25rem;
+$custom-fs-1-5rem: 1.5rem;
+$custom-fs-3-25rem: 3.25rem;
+
 // Non-responsive font classes
 
 .fs-1-25rem {
