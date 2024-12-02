@@ -5,3 +5,126 @@
 @import "node_modules/bootstrap/scss/variables";
 
 @import "node_modules/bootstrap/scss/bootstrap";
+
+// Non-responsive font classes
+
+.fs-1-25rem {
+  font-size: $custom-fs-1-25rem;
+}
+
+.fs-1-5rem {
+  font-size: $custom-fs-1-5rem;
+}
+
+// Responsive font classes
+
+.fs-1rem-to-1-25rem {
+  font-size: 1rem;
+
+  @include media-breakpoint-up("md") {
+    font-size: $custom-fs-1-25rem;
+  }
+}
+
+.fs-1-25rem-to-3-25rem {
+  font-size: $custom-fs-1-25rem;
+
+  @include media-breakpoint-up("md") {
+    font-size: $custom-fs-3-25rem;
+  }
+}
+
+// Fonts
+
+.main-font {
+  font-family: "Roboto Mono", monospace;
+  color: $main-gray-font;
+}
+.secondary-font {
+  font-family: "Yesteryear", cursive;
+}
+
+body {
+  background-color: $main-dark-gray;
+}
+
+.yellow-font {
+  color: $main-yellow;
+}
+
+// Navigation
+
+.btn-close {
+  color: white;
+}
+
+.z-index-negative {
+  z-index: -1;
+}
+
+// Frontpage
+
+.portrait-img {
+  height: 210px;
+  width: 210px;
+  object-fit: cover;
+  border-radius: 100px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid $main-yellow;
+}
+
+.yellow-frontpage {
+  height: 260px;
+}
+
+// Margins and paddings
+
+.pt-100px {
+  padding-top: 100px;
+}
+
+.height100vh {
+  height: 100vh;
+}
+
+.navMargin {
+  margin-top: -100px;
+}
+
+// Buttons
+
+.yellow-and-dark-btn {
+  border-radius: 50px;
+  border: 2px solid $main-yellow;
+  padding: 5px 30px;
+  background: transparent;
+  width: 200px;
+}
+
+// Utilities
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+  .navMargin {
+    margin-top: -100px;
+  }
+  .yellow-frontpage {
+    height: 100vh;
+  }
+  .portrait-img {
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 500px;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    border: 5px solid $main-dark-gray;
+  }
+}
