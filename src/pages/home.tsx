@@ -1,5 +1,15 @@
+import { MainSection, AboutSection, ProjectsSection, ServicesSection, ContactSection } from "../components/sections";
+
 function Home() {
-  return <h1>Home</h1>;
+  return (
+    <>
+      <MainSection />
+      <AboutSection />
+      <ProjectsSection />
+      <ServicesSection />
+      <ContactSection />
+    </>
+  );
 }
 
 export default Home;
