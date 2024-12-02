@@ -13,8 +13,8 @@ const Header = () => {
   return (
     <>
       <Navbar expand="lg" className="bg-body-primary position-relative main-header">
-        <div className="container-fluid">
-          <Link className="header-logo secondary-font fs-1-25rem-to-3-25rem dark-gray-font" to={"/"}>
+        <div className="container-fluid px-4">
+          <Link className="header-logo secondary-font fs-2rem-to-3rem dark-gray-font text-decoration-none" to={"/"}>
             thbergseng
           </Link>
           <img src={menuBars} className="d-lg-none nav-bars-button" aria-label="menu-button" onClick={handleShow} />

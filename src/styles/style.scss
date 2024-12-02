@@ -43,6 +43,8 @@ $main-gray-font: #cfcfcf;
 
 $custom-fs-1-25rem: 1.25rem;
 $custom-fs-1-5rem: 1.5rem;
+$custom-fs-2rem: 2rem;
+$custom-fs-3rem: 3rem;
 $custom-fs-3-25rem: 3.25rem;
 
 // Non-responsive font classes
@@ -70,6 +72,22 @@ $custom-fs-3-25rem: 3.25rem;
 
   @include media-breakpoint-up("md") {
     font-size: $custom-fs-3-25rem;
+  }
+}
+
+.fs-1-5rem-to-3-25rem {
+  font-size: $custom-fs-1-5rem;
+
+  @include media-breakpoint-up("md") {
+    font-size: $custom-fs-3-25rem;
+  }
+}
+
+.fs-2rem-to-3rem {
+  font-size: $custom-fs-2rem;
+
+  @include media-breakpoint-up("md") {
+    font-size: $custom-fs-3rem;
   }
 }
 
