@@ -299,6 +299,21 @@ body {
   color: $main-dark-gray;
 }
 
+.contact-bubble-icon {
+  background: $main-yellow;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50px;
+}
+
+// .contact-bubble-icon:hover {
+//   background: $main-gray-font;
+// }
+
+.contact-bubble a {
+  color: $main-gray-font;
+}
+
 // Borders
 
 .section-border {
