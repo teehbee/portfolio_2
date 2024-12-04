@@ -11,7 +11,7 @@ function MainSection() {
           <Link className="cursor-pointer" to="https://linkedin.com">
             <img src={linkedInFrontpageIcon} alt="" />
           </Link>
-          <Link to="https://github.com">
+          <Link to="https://github.com/teehbee">
             <img className="cursor-pointer" src={gitHubFrontpageIcon} alt="" />
           </Link>
         </div>

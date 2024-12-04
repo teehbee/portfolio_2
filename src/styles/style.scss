@@ -41,6 +41,7 @@ $main-gray-font: #cfcfcf;
 
 // Font size variables
 
+$custom-fs-0-75rem: 0.75rem;
 $custom-fs-1-25rem: 1.25rem;
 $custom-fs-1-5rem: 1.5rem;
 $custom-fs-2rem: 2rem;
@@ -59,11 +60,43 @@ $custom-fs-3-25rem: 3.25rem;
 
 // Responsive font classes
 
+.fs-0-75rem-to-1rem {
+  font-size: $custom-fs-0-75rem;
+
+  @include media-breakpoint-up("md") {
+    font-size: 1rem;
+  }
+}
+
+.fs-0-75rem-to-1rem-lg {
+  font-size: $custom-fs-0-75rem;
+
+  @include media-breakpoint-up("lg") {
+    font-size: 1rem;
+  }
+}
+
 .fs-1rem-to-1-25rem {
   font-size: 1rem;
 
   @include media-breakpoint-up("md") {
     font-size: $custom-fs-1-25rem;
+  }
+}
+
+.fs-1rem-to-1-5rem {
+  font-size: 1rem;
+
+  @include media-breakpoint-up("md") {
+    font-size: $custom-fs-1-5rem;
+  }
+}
+
+.fs-1-5rem-to-2rem {
+  font-size: $custom-fs-1-5rem;
+
+  @include media-breakpoint-up("md") {
+    font-size: $custom-fs-2rem;
   }
 }
 
@@ -124,6 +157,10 @@ body {
   z-index: 1;
 }
 
+.main-navigation a:hover {
+  color: $main-yellow;
+}
+
 // Frontpage
 
 .portrait-img {
@@ -140,6 +177,51 @@ body {
 
 .yellow-frontpage {
   height: 260px;
+}
+
+// Resume section
+
+.resume-tile {
+  background: $main-yellow;
+  border-radius: 25px;
+  padding-left: 1rem;
+}
+
+.resume-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.skills-tile {
+  border: 2px solid $main-yellow;
+  border-radius: 25px;
+  width: 87px;
+  height: 89px;
+}
+
+.skill-icon {
+  height: 30px;
+  width: 30px;
+}
+
+// Projects section
+
+.project-tile {
+  border: 3px solid $main-yellow;
+  border-radius: 25px;
+}
+
+.project-tile-icon {
+  background-color: $main-yellow;
+  padding: 0.5rem;
+  margin: 0.2rem;
+  border-radius: 50px;
+  height: 34px;
+  width: 34px;
+}
+
+.project-tile-icon:hover {
+  background-color: white;
 }
 
 // Margins and paddings
@@ -170,10 +252,23 @@ body {
   border: 2px solid white;
 }
 
+// Borders
+
+.section-border {
+  border-top: 3px dashed $main-yellow;
+  margin-top: 4rem;
+}
+
 // Utilities
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .neg-margin-1rem {
+    margin: 0 -1rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -196,6 +291,21 @@ body {
   .frontpage-text-container {
     padding-left: 150px;
   }
+  .section-border {
+    border-top: 5px dashed $main-yellow;
+  }
+  .resume-icon {
+    height: 57px;
+    width: 57px;
+  }
+  .skills-tile {
+    width: 131px;
+    height: 138px;
+  }
+  .project-tile-icon {
+    height: 48px;
+    width: 48px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -205,6 +315,10 @@ body {
   }
   .frontpage-text-container {
     padding-left: 50px;
+  }
+  .skill-icon {
+    height: 65px;
+    width: 65px;
   }
 }
 

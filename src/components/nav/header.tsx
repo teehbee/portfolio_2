@@ -19,8 +19,8 @@ const Header = () => {
           </Link>
           <img src={menuBars} className="d-lg-none nav-bars-button" aria-label="menu-button" onClick={handleShow} />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <Link to={"#resume"} className="btn main-font fs-1-5rem">
+            <Nav className="ms-auto main-navigation">
+              <Link to={"#about-section"} className="btn main-font fs-1-5rem">
                 About me
               </Link>
               <Link to={"projects"} className="btn main-font fs-1-5rem">
@@ -44,7 +44,7 @@ const Header = () => {
           <Offcanvas.Title className="gray-color secondary-font fs-1-5rem">thbergseng</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body className="d-flex flex-column gray-color align-items-start">
-          <Link to={"/"} className="btn main-font fs-1-25rem">
+          <Link to={"#about-section"} className="btn main-font fs-1-25rem">
             About me
           </Link>
           <Link to={"/"} className="btn main-font fs-1-25rem">
