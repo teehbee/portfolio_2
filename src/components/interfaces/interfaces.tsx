@@ -1,3 +1,9 @@
+// Project section
+
+// Future Interface for project tile
+
+export interface projectTileInterface {}
+
 // Services section
 
 // Interface for tiles displaying services offered
@@ -5,6 +11,18 @@
 export interface servicesTileInterface {
   servicesIcon: string;
   servicesTitle: string;
+}
+
+// Resume section
+
+// Interface for resume tile
+
+export interface resumeTileInterface {
+  resumeIcon: string;
+  fromYear: string;
+  toYear: string;
+  nameOfStudyorPosition: string;
+  nameOfSchoolOrEmployer: string;
 }
 
 // Contact section

@@ -1,3 +1,3 @@
-import { contactBubbleInterface, contactDataInterface, servicesTileInterface } from "./interfaces";
+import { contactBubbleInterface, contactDataInterface, servicesTileInterface, projectTileInterface, resumeTileInterface } from "./interfaces";
 
-export type { contactBubbleInterface, servicesTileInterface, contactDataInterface };
+export type { contactBubbleInterface, servicesTileInterface, contactDataInterface, projectTileInterface, resumeTileInterface };
