@@ -2,12 +2,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { contactSendIcon } from "../../../../assets/icons";
 import * as yup from "yup";
-
-interface contactDataInterface {
-  name: string;
-  email: string;
-  message: string;
-}
+import { contactDataInterface } from "../../../interfaces";
 
 function ContactForm() {
   const contactSchema = yup.object().shape({
