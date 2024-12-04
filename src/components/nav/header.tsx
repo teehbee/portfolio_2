@@ -61,7 +61,7 @@ const Header = () => {
           <Link to={"/"} className="btn main-font fs-1-25rem">
             Contact
           </Link>
-          <img className="ps-3 cursor-pointer" src={flagNor} aria-label="language picker" />
+          <img className="ps-3 cursor-pointer" src={language} onClick={handleLanguage} aria-label="language picker" />
         </Offcanvas.Body>
       </Offcanvas>
     </>
