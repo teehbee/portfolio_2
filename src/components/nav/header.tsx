@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { menuBars } from "../../assets/icons";
+import { flagNor, flagGB } from "../../assets/icons";
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -32,9 +33,7 @@ const Header = () => {
               <Link to={"#contact"} className="btn main-font fs-1-5rem">
                 Contact
               </Link>
-              <Link to={"/login"} className="btn main-font fs-1-5rem">
-                Flag
-              </Link>
+              <img className="px-3 cursor-pointer" src={flagNor} aria-label="language picker" />
             </Nav>
           </Navbar.Collapse>
         </div>
@@ -56,9 +55,7 @@ const Header = () => {
           <Link to={"/"} className="btn main-font fs-1-25rem">
             Contact
           </Link>
-          <Link to={"/"} className="btn main-font fs-1-25rem">
-            Flag
-          </Link>
+          <img className="ps-3 cursor-pointer" src={flagNor} aria-label="language picker" />
         </Offcanvas.Body>
       </Offcanvas>
     </>
