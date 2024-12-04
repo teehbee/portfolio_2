@@ -76,6 +76,14 @@ $custom-fs-3-25rem: 3.25rem;
   }
 }
 
+.fs-0-75rem-to-1-25rem {
+  font-size: $custom-fs-0-75rem;
+
+  @include media-breakpoint-up("md") {
+    font-size: $custom-fs-1-25rem;
+  }
+}
+
 .fs-1rem-to-1-25rem {
   font-size: 1rem;
 
@@ -224,6 +232,21 @@ body {
   background-color: white;
 }
 
+// Services section
+
+.services-tile {
+  background: $main-yellow;
+  border-radius: 25px;
+  padding: 5px 15px;
+  height: 89px;
+  width: 95px;
+}
+
+.services-icon {
+  height: 30px;
+  width: 30px;
+}
+
 // Margins and paddings
 
 .pt-100px {
@@ -268,6 +291,16 @@ body {
 @media screen and (min-width: 768px) {
   .neg-margin-1rem {
     margin: 0 -1rem;
+  }
+  .services-tile {
+    padding: 5px 15px;
+    height: 130px;
+    width: 160px;
+  }
+
+  .services-icon {
+    height: 60px;
+    width: 60px;
   }
 }
 
