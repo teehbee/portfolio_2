@@ -1,9 +1,4 @@
-interface contactBubbleInterface {
-  icon: string;
-  description: string;
-  href: string;
-  linkText: string;
-}
+import { contactBubbleInterface } from "../../../interfaces";
 
 const ContactBubble: React.FC<contactBubbleInterface> = ({ icon, description, href, linkText }) => {
   return (
