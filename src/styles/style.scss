@@ -247,6 +247,23 @@ body {
   width: 30px;
 }
 
+// Contact section - form
+
+.contact-input {
+  border: 2px solid $main-yellow;
+  border-radius: 15px;
+  text-indent: 10px;
+  padding: 10px 0;
+  margin: 5px 0;
+  background: $main-dark-gray;
+  color: $main-gray-font;
+}
+
+.contact-input::placeholder {
+  color: $main-gray-font;
+  opacity: 0.7;
+}
+
 // Margins and paddings
 
 .pt-100px {
@@ -273,6 +290,28 @@ body {
 
 .yellow-and-dark-btn:hover {
   border: 2px solid white;
+}
+
+.contact-submit-button {
+  background: $main-yellow;
+  border-radius: 15px;
+  padding: 7px 0;
+  color: $main-dark-gray;
+}
+
+.contact-bubble-icon {
+  background: $main-yellow;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50px;
+}
+
+// .contact-bubble-icon:hover {
+//   background: $main-gray-font;
+// }
+
+.contact-bubble a {
+  color: $main-gray-font;
 }
 
 // Borders

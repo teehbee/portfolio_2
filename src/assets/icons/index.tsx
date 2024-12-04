@@ -15,5 +15,11 @@ import flagNor from "./flags/emojione-v1_flag-for-norway.svg";
 import flagGB from "./flags/twemoji_flag-united-kingdom.svg";
 import codeIconLarge from "./mingcute_code-line.svg";
 import translationIcon from "./stash_pencil-writing.svg";
+import contactSendIcon from "./contact/icon-park-outline_send.svg";
+import contactAtIcon from "./contact/line-md_at.svg";
+import contactPhoneIcon from "./contact/uil_phone.svg";
+import contactLocationIcon from "./contact/proicons_location.svg";
+import contactGitHubIcon from "./contact/mdi_github.svg";
+import contactLinkedInIcon from "./contact/mdi_linkedin.svg";
 
-export { gitHubFrontpageIcon, linkedInFrontpageIcon, menuBars, studentIcon, workIcon, htmlIcon, cssIcon, jsIcon, bootstrapIcon, reactIcon, figmaIcon, playIcon, codeIcon, flagNor, flagGB, codeIconLarge, translationIcon };
+export { gitHubFrontpageIcon, linkedInFrontpageIcon, menuBars, studentIcon, workIcon, htmlIcon, cssIcon, jsIcon, bootstrapIcon, reactIcon, figmaIcon, playIcon, codeIcon, flagNor, flagGB, codeIconLarge, translationIcon, contactSendIcon, contactAtIcon, contactPhoneIcon, contactLocationIcon, contactGitHubIcon, contactLinkedInIcon };

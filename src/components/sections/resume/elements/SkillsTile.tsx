@@ -1,7 +1,4 @@
-interface skillTileInterface {
-  skillIcon: string;
-  skillTitle: string;
-}
+import { skillTileInterface } from "../../../interfaces";
 
 const SkillsTile: React.FC<skillTileInterface> = ({ skillIcon, skillTitle }) => {
   return (

@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { projectPlaceHolder } from "../../../../assets/img";
 import { playIcon, codeIcon } from "../../../../assets/icons";
 
+// import { projectTileInterface } from "../../../interfaces";
+
 function ProjectTile() {
   return (
     <div className="project-tile col-12 col-md-6 col-lg-4 p-3 neg-margin-1rem">

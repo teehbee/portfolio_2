@@ -1,10 +1,4 @@
-interface resumeTileInterface {
-  resumeIcon: string;
-  fromYear: string;
-  toYear: string;
-  nameOfStudyorPosition: string;
-  nameOfSchoolOrEmployer: string;
-}
+import { resumeTileInterface } from "../../../interfaces";
 
 const ResumeTile: React.FC<resumeTileInterface> = ({ resumeIcon, fromYear, toYear, nameOfStudyorPosition, nameOfSchoolOrEmployer }) => {
   return (
