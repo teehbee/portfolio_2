@@ -1,5 +1,6 @@
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
+import { contactSendIcon } from "../../../../assets/icons";
 import * as yup from "yup";
 
 interface contactDataInterface {
@@ -28,7 +29,7 @@ function ContactForm() {
   }
 
   return (
-    <div className="col-12 col-md-5 border">
+    <div className="col-12 col-md-5">
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="d-flex flex-column text-start">
           <label className="mt-3" htmlFor="name">
@@ -51,7 +52,9 @@ function ContactForm() {
           <textarea className="contact-input" id="message" placeholder="Type your message" {...register("message")} />
           {errors.message && <p>{errors.message.message}</p>}
         </div>
-        <button className="w-100 mt-3">Send message</button>
+        <button className="w-100 mt-3 contact-submit-button fw-medium fs-1-25rem">
+          Send message <img src={contactSendIcon} alt="" />
+        </button>
       </form>
     </div>
   );

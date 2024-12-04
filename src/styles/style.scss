@@ -253,7 +253,7 @@ body {
   border: 2px solid $main-yellow;
   border-radius: 15px;
   text-indent: 10px;
-  padding: 5px 0;
+  padding: 10px 0;
   margin: 5px 0;
   background: $main-dark-gray;
   color: $main-gray-font;
@@ -290,6 +290,13 @@ body {
 
 .yellow-and-dark-btn:hover {
   border: 2px solid white;
+}
+
+.contact-submit-button {
+  background: $main-yellow;
+  border-radius: 15px;
+  padding: 7px 0;
+  color: $main-dark-gray;
 }
 
 // Borders
