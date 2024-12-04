@@ -11,5 +11,7 @@ import reactIcon from "./skillsIcons/devicon_react.svg";
 import figmaIcon from "./skillsIcons/devicon_figma.svg";
 import playIcon from "./solar_play-bold.svg";
 import codeIcon from "./mingcute_code-fill.svg";
+import flagNor from "./flags/emojione-v1_flag-for-norway.svg";
+import flagGB from "./flags/twemoji_flag-united-kingdom.svg";
 
-export { gitHubFrontpageIcon, linkedInFrontpageIcon, menuBars, studentIcon, workIcon, htmlIcon, cssIcon, jsIcon, bootstrapIcon, reactIcon, figmaIcon, playIcon, codeIcon };
+export { gitHubFrontpageIcon, linkedInFrontpageIcon, menuBars, studentIcon, workIcon, htmlIcon, cssIcon, jsIcon, bootstrapIcon, reactIcon, figmaIcon, playIcon, codeIcon, flagNor, flagGB };
