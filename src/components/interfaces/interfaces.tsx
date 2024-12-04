@@ -43,3 +43,10 @@ export interface contactDataInterface {
   email: string;
   message: string;
 }
+
+// Interface for skill tile
+
+export interface skillTileInterface {
+  skillIcon: string;
+  skillTitle: string;
+}
