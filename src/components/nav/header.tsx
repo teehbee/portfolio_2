@@ -8,9 +8,15 @@ import { flagNor, flagGB } from "../../assets/icons";
 
 const Header = () => {
   const [show, setShow] = useState(false);
+  const [language, setLanguage] = useState(flagGB);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const handleLanguage = () => {
+    setLanguage((prevLanguage) => (prevLanguage === flagNor ? flagGB : flagNor));
+  };
+
   return (
     <>
       <Navbar expand="lg" className="bg-body-primary position-relative main-header">
@@ -33,7 +39,7 @@ const Header = () => {
               <Link to={"#contact"} className="btn main-font fs-1-5rem">
                 Contact
               </Link>
-              <img className="px-3 cursor-pointer" src={flagNor} aria-label="language picker" />
+              <img className="px-3 cursor-pointer" src={language} onClick={handleLanguage} aria-label="language picker" />
             </Nav>
           </Navbar.Collapse>
         </div>
