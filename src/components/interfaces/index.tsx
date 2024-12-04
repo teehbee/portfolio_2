@@ -1,3 +1,3 @@
-import { contactBubbleInterface } from "./interfaces";
+import { contactBubbleInterface, servicesTileInterface } from "./interfaces";
 
-export type { contactBubbleInterface };
+export type { contactBubbleInterface, servicesTileInterface };

@@ -1,7 +1,4 @@
-interface servicesTileInterface {
-  servicesIcon: string;
-  servicesTitle: string;
-}
+import { servicesTileInterface } from "../../../interfaces";
 
 const ServicesTile: React.FC<servicesTileInterface> = ({ servicesIcon, servicesTitle }) => {
   return (
