@@ -2,7 +2,11 @@
 
 // Future Interface for project tile
 
-export interface projectTileInterface {}
+export interface projectTileInterface {
+  img: string;
+  title: string;
+  description: string;
+}
 
 // Services section
 
