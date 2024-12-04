@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 import { useState } from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import { menuBars } from "../../assets/icons";
-import { flagNor, flagGB } from "../../assets/icons";
+import { menuBars, flagNor, flagGB } from "../../assets/icons";
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -21,24 +21,27 @@ const Header = () => {
     <>
       <Navbar expand="lg" className="bg-body-primary position-relative main-header">
         <div className="container-fluid px-4">
-          <Link className="header-logo secondary-font fs-2rem-to-3rem dark-gray-font text-decoration-none" to={"/"}>
+          <RouterLink className="header-logo secondary-font fs-2rem-to-3rem dark-gray-font text-decoration-none" to={"/"}>
             thbergseng
-          </Link>
+          </RouterLink>
           <img src={menuBars} className="d-lg-none nav-bars-button" aria-label="menu-button" onClick={handleShow} />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto main-navigation">
-              <Link to={"#about-section"} className="btn main-font fs-1-5rem">
+              <ScrollLink to={"#about-section"} className="btn main-font fs-1-5rem">
                 About me
-              </Link>
-              <Link to={"projects"} className="btn main-font fs-1-5rem">
+              </ScrollLink>
+              <ScrollLink to={"#resume-section"} className="btn main-font fs-1-5rem">
                 Resume
-              </Link>
-              <Link to={"#services"} className="btn main-font fs-1-5rem">
+              </ScrollLink>
+              <ScrollLink to={"#projects-section"} className="btn main-font fs-1-5rem">
+                Projects
+              </ScrollLink>
+              <ScrollLink to={"#services-section"} className="btn main-font fs-1-5rem">
                 Services
-              </Link>
-              <Link to={"#contact"} className="btn main-font fs-1-5rem">
+              </ScrollLink>
+              <ScrollLink to={"#contact-section"} className="btn main-font fs-1-5rem">
                 Contact
-              </Link>
+              </ScrollLink>
               <img className="px-3 cursor-pointer" src={language} onClick={handleLanguage} aria-label="language picker" />
             </Nav>
           </Navbar.Collapse>
@@ -49,18 +52,18 @@ const Header = () => {
           <Offcanvas.Title className="gray-color secondary-font fs-1-5rem">thbergseng</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body className="d-flex flex-column gray-color align-items-start">
-          <Link to={"#about-section"} className="btn main-font fs-1-25rem">
+          <ScrollLink to={"#about-section"} className="btn main-font fs-1-25rem">
             About me
-          </Link>
-          <Link to={"/"} className="btn main-font fs-1-25rem">
+          </ScrollLink>
+          <ScrollLink to={"#projects-section"} className="btn main-font fs-1-25rem">
             Resume
-          </Link>
-          <Link to={"/"} className="btn main-font fs-1-25rem">
+          </ScrollLink>
+          <ScrollLink to={"#services-section"} className="btn main-font fs-1-25rem">
             Services
-          </Link>
-          <Link to={"/"} className="btn main-font fs-1-25rem">
+          </ScrollLink>
+          <ScrollLink to={"#contact-section"} className="btn main-font fs-1-25rem">
             Contact
-          </Link>
+          </ScrollLink>
           <img className="ps-3 cursor-pointer" src={language} onClick={handleLanguage} aria-label="language picker" />
         </Offcanvas.Body>
       </Offcanvas>
