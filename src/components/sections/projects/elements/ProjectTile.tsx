@@ -1,24 +1,25 @@
 import { Link } from "react-router-dom";
-import { projectPlaceHolder } from "../../../../assets/img";
+
 import { playIcon, codeIcon } from "../../../../assets/icons";
 
 // import { projectTileInterface } from "../../../interfaces";
+// import { projectPlaceHolder } from "../../../../assets/img";
 
-function ProjectTile() {
+function ProjectTile({ projectImg, projectDescription, liveSiteLink, repositoryLink, projectTitle }) {
   return (
     <div className="project-tile col-12 col-md-6 col-lg-4 p-3 neg-margin-1rem">
       <div className="text-start">
-        <p className="pt-2 fs-1rem-to-1-5rem fw-bold">Name of project</p>
+        <p className="pt-2 fs-1rem-to-1-5rem fw-bold">{projectTitle}</p>
       </div>
-      <img className="project-tile-img img-fluid" src={projectPlaceHolder} alt="screenshot from project" />
+      <img className="project-tile-img img-fluid" src={projectImg} alt="screenshot from project" />
       <div className="text-md-start">
-        <p className="py-2 mb-0 fs-0-75rem-to-1rem fw-bold yellow-font">Short project description Short project description Short project description Short project description</p>
+        <p className="py-2 mb-0 fs-0-75rem-to-1rem fw-bold yellow-font">{projectDescription}</p>
       </div>
       <div className="text-end">
-        <Link to="/">
+        <Link to={liveSiteLink}>
           <img className="project-tile-icon img-fluid" src={playIcon} aria-label="link to live site" />
         </Link>
-        <Link to="/">
+        <Link to={repositoryLink}>
           <img className="project-tile-icon img-fluid" src={codeIcon} aria-label="link to repository" />
         </Link>
       </div>
