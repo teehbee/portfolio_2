@@ -3,9 +3,11 @@
 // Future Interface for project tile
 
 export interface projectTileInterface {
-  img: string;
-  title: string;
-  description: string;
+  projectTitle: string;
+  projectImg: string;
+  projectDescription: string;
+  liveSiteLink: string;
+  repositoryLink: string;
 }
 
 // Services section
@@ -53,4 +55,16 @@ export interface contactDataInterface {
 export interface skillTileInterface {
   skillIcon: string;
   skillTitle: string;
+}
+
+// Projects section
+
+// Interface for project tiles
+
+export interface projectTileInterface {
+  projectTitle: string;
+  projectImg: string;
+  projectDescription: string;
+  liveSiteLink: string;
+  repositoryLink: string;
 }

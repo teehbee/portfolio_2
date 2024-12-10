@@ -1,17 +1,10 @@
 import { Link } from "react-router-dom";
+import { projectTileInterface } from "../../../interfaces";
 
 import { playIcon, codeIcon } from "../../../../assets/icons";
 
 // import { projectTileInterface } from "../../../interfaces";
 // import { projectPlaceHolder } from "../../../../assets/img";
-
-interface projectTileInterface {
-  projectTitle: string;
-  projectImg: string;
-  projectDescription: string;
-  liveSiteLink: string;
-  repositoryLink: string;
-}
 
 const ProjectTile: React.FC<projectTileInterface> = ({ projectImg, projectDescription, liveSiteLink, repositoryLink, projectTitle }) => {
   return (
