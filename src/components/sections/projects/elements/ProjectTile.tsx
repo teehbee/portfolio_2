@@ -5,7 +5,15 @@ import { playIcon, codeIcon } from "../../../../assets/icons";
 // import { projectTileInterface } from "../../../interfaces";
 // import { projectPlaceHolder } from "../../../../assets/img";
 
-function ProjectTile({ projectImg, projectDescription, liveSiteLink, repositoryLink, projectTitle }) {
+interface projectTileInterface {
+  projectTitle: string;
+  projectImg: string;
+  projectDescription: string;
+  liveSiteLink: string;
+  repositoryLink: string;
+}
+
+const ProjectTile: React.FC<projectTileInterface> = ({ projectImg, projectDescription, liveSiteLink, repositoryLink, projectTitle }) => {
   return (
     <div className="project-tile col-12 col-md-6 col-lg-4 p-3 neg-margin-1rem">
       <div className="text-start">
@@ -25,6 +33,6 @@ function ProjectTile({ projectImg, projectDescription, liveSiteLink, repositoryL
       </div>
     </div>
   );
-}
+};
 
 export default ProjectTile;
