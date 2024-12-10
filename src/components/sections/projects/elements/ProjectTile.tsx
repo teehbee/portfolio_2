@@ -8,7 +8,7 @@ import { playIcon, codeIcon } from "../../../../assets/icons";
 
 const ProjectTile: React.FC<projectTileInterface> = ({ projectImg, projectDescription, liveSiteLink, repositoryLink, projectTitle }) => {
   return (
-    <div className="project-tile col-12 col-md-6 col-lg-4 p-3 neg-margin-1rem">
+    <div className="project-tile col-12 col-md-6 col-lg-4 p-3 neg-margin-1rem d-flex flex-column justify-content-between">
       <div className="text-start">
         <p className="pt-2 fs-1rem-to-1-5rem fw-bold">{projectTitle}</p>
       </div>
