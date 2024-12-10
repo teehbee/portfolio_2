@@ -1,4 +1,5 @@
 import { ProjectTile } from "./elements";
+import { communityScienceMuseumImg, rainyDaysImg, visitValdresImg, hikeBuddyImg, auctionHouseImg, onlineStoreImg, holidazeImg } from "../../../assets/screenshots";
 
 function ProjectsSection() {
   return (
