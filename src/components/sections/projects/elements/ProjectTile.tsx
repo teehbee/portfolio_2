@@ -1,10 +1,5 @@
-import { Link } from "react-router-dom";
 import { projectTileInterface } from "../../../interfaces";
-
 import { playIcon, codeIcon } from "../../../../assets/icons";
-
-// import { projectTileInterface } from "../../../interfaces";
-// import { projectPlaceHolder } from "../../../../assets/img";
 
 const ProjectTile: React.FC<projectTileInterface> = ({ projectImg, projectDescription, liveSiteLink, repositoryLink, projectTitle }) => {
   return (
@@ -12,19 +7,19 @@ const ProjectTile: React.FC<projectTileInterface> = ({ projectImg, projectDescri
       <div className="text-start">
         <p className="pt-2 fs-1rem-to-1-5rem fw-bold">{projectTitle}</p>
       </div>
-      <Link to={liveSiteLink}>
+      <a href={liveSiteLink} target="_blank" rel="noopener noreferrer">
         <img className="project-tile-img img-fluid" src={projectImg} alt="screenshot from project" />
-      </Link>
+      </a>
       <div className="text-md-start">
         <p className="py-2 mb-0 fs-0-75rem-to-1rem fw-bold yellow-font">{projectDescription}</p>
       </div>
       <div className="text-end">
-        <Link to={liveSiteLink}>
+        <a href={liveSiteLink} target="_blank" rel="noopener noreferrer">
           <img className="project-tile-icon img-fluid" src={playIcon} aria-label="link to live site" />
-        </Link>
-        <Link to={repositoryLink}>
+        </a>
+        <a href={repositoryLink} target="_blank" rel="noopener noreferrer">
           <img className="project-tile-icon img-fluid" src={codeIcon} aria-label="link to repository" />
-        </Link>
+        </a>
       </div>
     </div>
   );
