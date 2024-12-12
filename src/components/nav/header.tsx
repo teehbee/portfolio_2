@@ -52,16 +52,16 @@ const Header = () => {
           <Offcanvas.Title className="gray-color secondary-font fs-1-5rem">thbergseng</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body className="d-flex flex-column gray-color align-items-start">
-          <ScrollLink to={"#about-section"} className="btn main-font fs-1-25rem">
+          <ScrollLink to={"#about-section"} onClick={handleClose} className="btn main-font fs-1-25rem">
             About me
           </ScrollLink>
-          <ScrollLink to={"#projects-section"} className="btn main-font fs-1-25rem">
+          <ScrollLink to={"#projects-section"} onClick={handleClose} className="btn main-font fs-1-25rem">
             Resume
           </ScrollLink>
-          <ScrollLink to={"#services-section"} className="btn main-font fs-1-25rem">
+          <ScrollLink to={"#services-section"} onClick={handleClose} className="btn main-font fs-1-25rem">
             Services
           </ScrollLink>
-          <ScrollLink to={"#contact-section"} className="btn main-font fs-1-25rem">
+          <ScrollLink to={"#contact-section"} onClick={handleClose} className="btn main-font fs-1-25rem">
             Contact
           </ScrollLink>
           <img className="ps-3 cursor-pointer d-none" src={language} onClick={handleLanguage} aria-label="language picker" />
