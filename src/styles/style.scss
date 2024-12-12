@@ -328,6 +328,11 @@ body {
   margin-top: 4rem;
 }
 
+.dropdown-border {
+  border-bottom: 2px solid $main-yellow;
+  width: 100%;
+}
+
 // Utilities
 
 .cursor-pointer {
