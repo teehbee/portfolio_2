@@ -152,8 +152,8 @@ body {
 
 // Navigation
 
-.btn-close {
-  color: white;
+.offcanvas-header .btn-close {
+  background-color: $main-yellow !important;
 }
 
 .z-index-negative {
