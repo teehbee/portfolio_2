@@ -1,3 +1,4 @@
 import { holidazeDescription, stuffDescription, auctionHouseDescription, hikeBuddyDescription, visitValdresDescription, communityScienceMuseumDescription, rainyDaysDescription } from "./descriptions";
+import { gitHubRainyDays, netlifyRainyDays, gitHubCSM, netlifyCSM, gitHubVisitValdres, netlifyVisitValdres, netlifyHikeBuddy, gitHubHikeBuddy, gitHubGetRidOfIt, netlifyGetRidOfIt, gitHubStuff, gitHubHolidaze, netlifyStuff, netlifyHolidaze } from "./links";
 
-export { holidazeDescription, stuffDescription, auctionHouseDescription, hikeBuddyDescription, visitValdresDescription, communityScienceMuseumDescription, rainyDaysDescription };
+export { holidazeDescription, stuffDescription, auctionHouseDescription, hikeBuddyDescription, visitValdresDescription, communityScienceMuseumDescription, rainyDaysDescription, gitHubRainyDays, netlifyRainyDays, gitHubCSM, netlifyCSM, gitHubVisitValdres, netlifyVisitValdres, netlifyHikeBuddy, gitHubHikeBuddy, gitHubGetRidOfIt, netlifyGetRidOfIt, gitHubStuff, gitHubHolidaze, netlifyStuff, netlifyHolidaze };
