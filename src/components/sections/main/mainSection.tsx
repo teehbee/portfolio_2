@@ -1,4 +1,4 @@
-import { placeHolderImage } from "../../../assets/img";
+import { placeHolderImage, portrait } from "../../../assets/img";
 import { linkedInFrontpageIcon, gitHubFrontpageIcon } from "../../../assets/icons";
 import { Link as ScrollLink } from "react-scroll";
 import { linkedInUrl, gitHubUrl } from "../../data";
@@ -7,7 +7,7 @@ function MainSection() {
   return (
     <section id="landing-section" className="d-flex w-100 text-center flex-column flex-lg-row  z-index-negative height100vh navMargin">
       <div className="col-12 col-lg-3 yellow-colour pt-100px position-relative yellow-frontpage d-flex flex-column justify-content-end align-items-start">
-        <img className="portrait-img" src={placeHolderImage} alt="portrait of me" />
+        <img className="portrait-img" src={portrait} alt="portrait of me" />
         <div className="ps-3 pb-3 d-none d-lg-block">
           <a href={linkedInUrl} target="_blank" rel="noopener noreferrer">
             <img className="cursor-pointer" src={linkedInFrontpageIcon} aria-label="github link" />
