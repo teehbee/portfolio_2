@@ -1,3 +1,3 @@
-import { mapsUrl, phone, email } from "./data";
+import { mapsUrl, phone, email, linkedInUrl, gitHubUrl } from "./data";
 
-export { mapsUrl, phone, email };
+export { mapsUrl, phone, email, linkedInUrl, gitHubUrl };

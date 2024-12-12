@@ -1,0 +1,111 @@
+{
+  "header": {
+    "about": "Om meg",
+    "resume": "CV",
+    "projects": "Prosjekter",
+    "services": "Tjenester",
+    "contact": "Kontakt"
+  },
+  "frontpage": {
+    "download_cv": "Last ned CV",
+    "frontpage_title": "Front-end utvikler",
+    "frontpage_slogan": "Design med formål, utvikling med presisjon",
+    "frontpage_title_lower": "Om meg",
+    "first_about_section": "Kort introduksjon om meg. En setning eller to",
+    "second_about_section": "Kort introduksjon om meg. En setning eller to"
+  },
+  "resume": {
+    "resume_education": "Utdanning",
+    "resume_experience": "Erfaring",
+    "resume_skills": "Ferdigheter",
+    "resume_content": {
+      "education_1": {
+        "education_1_dates": "Januar 2022 til januar 2024",
+        "education_1_name": "Front-end utvikling",
+        "education_1_school": "Noroff"
+      },
+      "education_2": {
+        "education_1_dates": "August 2009 til juli 2010",
+        "education_1_name": "Allmennfaglig påbygning",
+        "education_1_school": "Nes videregående skole"
+      },
+      "education_3": {
+        "education_1_dates": "August 2006 til juli 2007",
+        "education_1_name": "Sjøfartsfag",
+        "education_1_school": "Etterstad videregående skole"
+      },
+      "education_4": {
+        "education_1_dates": "August 2005 til juli 206",
+        "education_1_name": "Grunnkurs elektrofag",
+        "education_1_school": "Nes videregående skole"
+      },
+      "experience_1": {
+        "experience_1_dates": "September 2020 til desember 2022",
+        "experience_1_name": "Maskinpasser",
+        "experience_1_school": "Osterøy Ferjeselskap AS"
+      },
+      "experience_2": {
+        "experience_1_dates": "September 2011 til september 2020",
+        "experience_1_name": "Matros",
+        "experience_1_school": "Norled AS"
+      },
+      "experience_3": {
+        "experience_1_dates": "Juli 2007 til juli 2009",
+        "experience_1_name": "Lærlig i matrofaget",
+        "experience_1_school": "Ugland Marine Management AS"
+      }
+    }
+  },
+  "Projects": {
+    "projects_title": "Prosjekter",
+    "projects_content": {
+      "project_1": {
+        "project_1_title": "Holidaze",
+        "project_1_description": "Bookingside utført som min avgangseksamensoppgave. Produsert med React, TypeScript og Bootstrap. Brukere kan booke, poste og administrere overnattingssteder."
+      },
+      "project_2": {
+        "project_1_title": "Støff.",
+        "project_1_description": "Rammeverksoppgave produsert med React hvor brukere kan legge til produkter i handlekurven, søke på individuelle produkter og fullføre bestillingen."
+      },
+      "project_3": {
+        "project_1_title": "Get rid of it",
+        "project_1_description": "Auksjonsside hvor brukere kan poste produkter og by på andre produkter. Produsert med Vanilla JS og Bootstrap."
+      },
+      "project_4": {
+        "project_1_title": "HikeBuddy",
+        "project_1_description": "Oppgave med fokus på rammeverk for stilsetting produsert med Bootstrap. Brukere kan skrive poster synlige for andre brukere og se deres poster."
+      },
+      "project_5": {
+        "project_1_title": "VisitValdres",
+        "project_1_description": "Første prosjekteksamen. Bloggside produsert med Vanilla JS og Wordpress for bloggposter."
+      },
+      "project_6": {
+        "project_1_title": "Community Science Museum",
+        "project_1_description": "Første semesterprosjekt. Statisk nettside for et teknisk museum. Produsert med HTML og CSS."
+      },
+      "project_7": {
+        "project_1_title": "Community Science Museum",
+        "project_1_description": "Første oppgave på mitt studie. Statisk nettbutikk senere utvidet til å innhente produkter fra API. Produsert med HTML, CSS og Vanilla JS."
+      }
+    }
+  },
+  "Services": {
+    "services_title": "Tjenester",
+    "services_text": "Dette er noen av tjenesten jeg kan tilby. Ta gjerne kontakt dersom noen av disse skulle passe til dine behov.",
+    "services_web_design": "Web-design",
+    "services_translations": "Oversettelser"
+  },
+  "Contact": {
+    "contact_title": "Kontakt",
+    "contact_form": {
+      "contact_form_name": "Navn",
+      "contact_form_name_placeholder": "Skriv fullt navn her",
+      "contact_form_email": "E-post",
+      "contact_form_email_placeholder": "Skriv e-postadresse her",
+      "contact_form_message": "Melding",
+      "contact_form_message_placeholder": "Skriv din melding her",
+      "contact_form_submit_button": "Send melding"
+    }
+  },
+  "footer": "&copy; Created by Tor-Håkon bergseng"
+}

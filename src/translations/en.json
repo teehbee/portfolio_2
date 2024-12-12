@@ -1,0 +1,111 @@
+{
+  "header": {
+    "about": "About me",
+    "resume": "Resume",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "frontpage": {
+    "download_cv": "Download CV",
+    "frontpage_title": "Front-end developer",
+    "frontpage_slogan": "Designing with Purpose, Developing with Precision",
+    "frontpage_title_lower": "About me",
+    "first_about_section": "Small introduction text about me. Small introduction text about me. Small introduction text about me.",
+    "second_about_section": "Small introduction text about me. Small introduction text about me. Small introduction text about me.Small introduction text about me. Small introduction text about me. Small introduction text about me.Small introduction text about me. Small introduction text about me. Small introduction text about me."
+  },
+  "resume": {
+    "resume_education": "Resume",
+    "resume_experience": "Education",
+    "resume_skills": "Skills",
+    "resume_content": {
+      "education_1": {
+        "education_1_dates": "January 2022 to January 2024",
+        "education_1_name": "Front-end development",
+        "education_1_school": "Noroff school of technology and digital media, online"
+      },
+      "education_2": {
+        "education_1_dates": "August 2009 to July 2010",
+        "education_1_name": "Supplementary general studies",
+        "education_1_school": "Nes secondary school"
+      },
+      "education_3": {
+        "education_1_dates": "August 2006 to July 2007",
+        "education_1_name": "Maritime studies",
+        "education_1_school": "Etterstad secondary school"
+      },
+      "education_4": {
+        "education_1_dates": "August 2005 to July 2006",
+        "education_1_name": "Electrician studies",
+        "education_1_school": "Nes secondary school"
+      },
+      "experience_1": {
+        "experience_1_dates": "September 2020 to December 2022",
+        "experience_1_name": "Motorman",
+        "experience_1_school": "Osterøy ferjeselskap AS"
+      },
+      "experience_2": {
+        "experience_1_dates": "September 2011 to September 2020",
+        "experience_1_name": "Able seaman",
+        "experience_1_school": "Norled AS"
+      },
+      "experience_3": {
+        "experience_1_dates": "July 2007 to July 2009",
+        "experience_1_name": "Able seaman apprentice",
+        "experience_1_school": "Ugland Marine Management AS"
+      }
+    }
+  },
+  "Projects": {
+    "projects_title": "Projects",
+    "projects_content": {
+      "project_1": {
+        "project_1_title": "Holidaze",
+        "project_1_description": "Venue booking site and final exam. Built with React, TypeScript and Bootstrap. Users may book, post and administer venues."
+      },
+      "project_2": {
+        "project_1_title": "Støff.",
+        "project_1_description": "Frameworks task built with React where users may add products to shopping cart, search individual products and checkout cart."
+      },
+      "project_3": {
+        "project_1_title": "Get rid of it",
+        "project_1_description": "Auction site where users may post items and bid on other items. Built with Vanilla JS and Bootstrap."
+      },
+      "project_4": {
+        "project_1_title": "HikeBuddy",
+        "project_1_description": "Styling frameworks task built with Vanilla JS BootStrap. Users may post social media posts visible to other registered users."
+      },
+      "project_5": {
+        "project_1_title": "VisitValdres",
+        "project_1_description": "First project exam. Blog site built with Vanilla JS and Wordpress for creating blog posts."
+      },
+      "project_6": {
+        "project_1_title": "Community Science Museum",
+        "project_1_description": "First semester project. Static website for a technical museum. Built with HTML and CSS."
+      },
+      "project_7": {
+        "project_1_title": "Community Science Museum",
+        "project_1_description": "First task during my studies. Static online store expanded into fetching products from an API and displaying. Built with HTML, CSS and Vanilla JS."
+      }
+    }
+  },
+  "Services": {
+    "services_title": "Services",
+    "services_text": "These are some of the services I can offer. Feel free to contact me if these suit your needs.",
+    "services_web_design": "Web-design",
+    "services_translations": "Translations"
+  },
+  "Contact": {
+    "contact_title": "Contact",
+    "contact_form": {
+      "contact_form_name": "Name",
+      "contact_form_name_placeholder": "Enter full name here",
+      "contact_form_email": "E-mail",
+      "contact_form_email_placeholder": "Enter email address here",
+      "contact_form_message": "Message",
+      "contact_form_message_placeholder": "Type your message here",
+      "contact_form_submit_button": "Send message"
+    }
+  },
+  "footer": "&copy; Created by Tor-Håkon bergseng"
+}
