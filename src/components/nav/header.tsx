@@ -42,7 +42,7 @@ const Header = () => {
               <ScrollLink to={"#contact-section"} className="btn main-font fs-1-5rem">
                 Contact
               </ScrollLink>
-              <img className="px-3 cursor-pointer" src={language} onClick={handleLanguage} aria-label="language picker" />
+              <img className="px-3 cursor-pointer d-none" src={language} onClick={handleLanguage} aria-label="language picker" />
             </Nav>
           </Navbar.Collapse>
         </div>
@@ -64,7 +64,7 @@ const Header = () => {
           <ScrollLink to={"#contact-section"} className="btn main-font fs-1-25rem">
             Contact
           </ScrollLink>
-          <img className="ps-3 cursor-pointer" src={language} onClick={handleLanguage} aria-label="language picker" />
+          <img className="ps-3 cursor-pointer d-none" src={language} onClick={handleLanguage} aria-label="language picker" />
         </Offcanvas.Body>
       </Offcanvas>
     </>
