@@ -27,11 +27,12 @@ function ContactForm() {
     <div className="col-12 col-md-5">
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="d-flex flex-column text-start">
+          <p className="fw-bold">Contact form is not functional at this time!</p>
           <label className="mt-3" htmlFor="name">
             Name
           </label>
           <input className="contact-input" type="text" id="name" placeholder="Enter full name here" {...register("name")} />
-          {errors.name && <p>errors.name.message</p>}
+          {errors.name && <p>{errors.name.message}</p>}
         </div>
         <div className="d-flex flex-column text-start">
           <label className="mt-3" htmlFor="email">
