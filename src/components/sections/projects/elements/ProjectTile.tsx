@@ -12,7 +12,9 @@ const ProjectTile: React.FC<projectTileInterface> = ({ projectImg, projectDescri
       <div className="text-start">
         <p className="pt-2 fs-1rem-to-1-5rem fw-bold">{projectTitle}</p>
       </div>
-      <img className="project-tile-img img-fluid" src={projectImg} alt="screenshot from project" />
+      <Link to={liveSiteLink}>
+        <img className="project-tile-img img-fluid" src={projectImg} alt="screenshot from project" />
+      </Link>
       <div className="text-md-start">
         <p className="py-2 mb-0 fs-0-75rem-to-1rem fw-bold yellow-font">{projectDescription}</p>
       </div>

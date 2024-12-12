@@ -11,8 +11,8 @@ const gitHubVisitValdres = "https://github.com/Noroff-FEU-Assignments/project-ex
 const netlifyVisitValdres = "https://classy-brioche-010e6b.netlify.app/";
 
 // HikeBuddy
-const gitHubHikeBuddy = "https://github.com/Noroff-FEU-Assignments/project-exam-1-teehbee/";
-const netlifyHikeBuddy = "https://classy-brioche-010e6b.netlify.app/";
+const gitHubHikeBuddy = "https://github.com/teehbee/hikebuddy-ca-js2";
+const netlifyHikeBuddy = "https://incandescent-dolphin-9e85ce.netlify.app/";
 
 // Get Rid of It
 const gitHubGetRidOfIt = "https://github.com/teehbee/semester-project-auction-house";
