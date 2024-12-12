@@ -1,4 +1,4 @@
-import { placeHolderImage, portrait } from "../../../assets/img";
+import { portrait } from "../../../assets/img";
 import { linkedInFrontpageIcon, gitHubFrontpageIcon } from "../../../assets/icons";
 import { Link as ScrollLink } from "react-scroll";
 import { linkedInUrl, gitHubUrl } from "../../data";

@@ -169,6 +169,17 @@ body {
   color: $main-yellow;
 }
 
+// footer
+
+.footer-link {
+  color: $main-gray-font;
+}
+
+.footer-link:hover {
+  color: $main-yellow;
+  font-weight: 600;
+}
+
 // Frontpage
 
 .portrait-img {
@@ -305,10 +316,6 @@ body {
   margin: 10px;
   border-radius: 50px;
 }
-
-// .contact-bubble-icon:hover {
-//   background: $main-gray-font;
-// }
 
 .contact-bubble a {
   color: $main-gray-font;
