@@ -9,6 +9,7 @@ import jsIcon from "./skillsIcons/devicon_javascript.svg";
 import bootstrapIcon from "./skillsIcons/skill-icons_bootstrap.svg";
 import reactIcon from "./skillsIcons/devicon_react.svg";
 import figmaIcon from "./skillsIcons/devicon_figma.svg";
+import typescriptIcon from "./skillsIcons/typescript.svg";
 import playIcon from "./solar_play-bold.svg";
 import codeIcon from "./mingcute_code-fill.svg";
 import flagNor from "./flags/emojione-v1_flag-for-norway.svg";
@@ -22,4 +23,4 @@ import contactLocationIcon from "./contact/proicons_location.svg";
 import contactGitHubIcon from "./contact/mdi_github.svg";
 import contactLinkedInIcon from "./contact/mdi_linkedin.svg";
 
-export { gitHubFrontpageIcon, linkedInFrontpageIcon, menuBars, studentIcon, workIcon, htmlIcon, cssIcon, jsIcon, bootstrapIcon, reactIcon, figmaIcon, playIcon, codeIcon, flagNor, flagGB, codeIconLarge, translationIcon, contactSendIcon, contactAtIcon, contactPhoneIcon, contactLocationIcon, contactGitHubIcon, contactLinkedInIcon };
+export { gitHubFrontpageIcon, linkedInFrontpageIcon, menuBars, studentIcon, workIcon, htmlIcon, cssIcon, jsIcon, bootstrapIcon, reactIcon, figmaIcon, playIcon, codeIcon, flagNor, flagGB, codeIconLarge, translationIcon, contactSendIcon, contactAtIcon, contactPhoneIcon, contactLocationIcon, contactGitHubIcon, contactLinkedInIcon, typescriptIcon };

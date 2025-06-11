@@ -1,4 +1,4 @@
-import { htmlIcon, cssIcon, jsIcon, bootstrapIcon, reactIcon, figmaIcon } from "../../../../assets/icons";
+import { htmlIcon, cssIcon, jsIcon, bootstrapIcon, reactIcon, figmaIcon, typescriptIcon } from "../../../../assets/icons";
 
 import SkillsTile from "./SkillsTile";
 function Skills() {
@@ -11,6 +11,7 @@ function Skills() {
         <SkillsTile skillIcon={jsIcon} skillTitle={"JS"} />
         <SkillsTile skillIcon={bootstrapIcon} skillTitle={"Bootstrap"} />
         <SkillsTile skillIcon={reactIcon} skillTitle={"React"} />
+        <SkillsTile skillIcon={typescriptIcon} skillTitle={"Typescript"} />
         <SkillsTile skillIcon={figmaIcon} skillTitle={"Figma"} />
       </div>
     </div>
