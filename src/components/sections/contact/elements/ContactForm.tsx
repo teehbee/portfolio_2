@@ -74,7 +74,7 @@ function ContactForm() {
             id="email"
             placeholder="Enter email address here"
             {...register("email")}
-            onChange={(e) => {
+            onChange={() => {
               clearErrors("email");
             }}
           />
