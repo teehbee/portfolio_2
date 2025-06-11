@@ -4,7 +4,7 @@ import { mapsUrl, email, phone, gitHubUrl, linkedInUrl } from "../../../data";
 
 function ContactInfo() {
   return (
-    <div className="col-12 col-md-7  mt-4 mt-lg-0 d-flex flex-column justify-content-between py-lg-5 ps-lg-4">
+    <div className="col-12 col-md-7  mt-4 mt-lg-0 d-flex flex-column justify-content-start py-lg-5 ps-lg-4">
       <ContactBubble icon={contactAtIcon} description="contact via email" href={email} linkText="thbergseng@gmail.com" />
       <ContactBubble icon={contactPhoneIcon} description="contact via email" href="tel:+47148822" linkText={phone} />
       <ContactBubble icon={contactLocationIcon} description="contact via email" href={mapsUrl} linkText="thbergseng@gmail.com" />
